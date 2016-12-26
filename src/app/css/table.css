@@ -1,0 +1,26 @@
+table {
+    border-width: 0px 5px 5px 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    font-size: 15pt;
+}
+
+tr:nth-child(odd){
+    background: #CCE0CC;
+}
+
+td,
+th {
+    border: none
+}
+
+thead tr:first-child {
+    font-weight: 900;
+    font-size: 18pt;
+    background: lightgray;
+}
+
+.recent,
+.all-time {
+    text-align: center;
+}
